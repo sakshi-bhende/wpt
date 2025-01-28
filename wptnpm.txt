@@ -1,0 +1,38 @@
+node -v
+npm -v
+
+npx create-react-app my-app
+(If npx is not working, install globally: npm install -g create-react-app and then run create-react-app my-app)
+
+cd my-app
+code .
+
+npm start
+This will open http://localhost:3000/ in your browser.
+
+ Install Dependencies (if node_modules is missing)
+npm install
+
+----------------------
+express
+npm init -y
+This initializes a package.json file.
+
+
+npm install express(optional)
+create server.js
+
+Run the Express Server
+node server.js
+
+npm install -g nodemon(For automatic server restarts during development:)
+nodemon server.js (run the server with)
+
+------------
+npm start(react)
+node server.js(express)
+------------
+npm create vite@latest my-vite-app --template react(Create a New React App with Vite)
+
+npm run dev(Start the development server:)
+
